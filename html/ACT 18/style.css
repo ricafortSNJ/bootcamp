@@ -1,0 +1,13 @@
+        body {
+            font-family: 'Comic Sans MS';
+            margin:0px;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        ul {
+            list-style-position: inside;
+        }

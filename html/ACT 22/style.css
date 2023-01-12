@@ -1,0 +1,32 @@
+
+table {
+    background-color: rgb(70, 130, 180);
+    color: white;
+}
+
+.ft75 {
+    font-size: 75%; 
+}
+
+.font-double {
+    font-size:200%;
+}
+
+.list-center {
+    list-style-position: inside; 
+}
+
+/*Colors */
+
+.blue {
+    color:rgb(70, 130, 180)
+}
+
+.pink {
+    color: rgb(255, 0, 216);
+}
+
+.gray {
+    color:rgb(160, 160, 160);
+}
+

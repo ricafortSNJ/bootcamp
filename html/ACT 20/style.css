@@ -1,0 +1,168 @@
+/*Body*/
+
+body {
+    margin:0px;
+    font-family: 'Tahoma';
+    background-color: #ffffff;
+    background-image: url("https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg");
+    background-attachment: fixed;
+}
+
+/*NavBar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 3px dotted;
+  }
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(0, 0, 139);
+}
+
+/*Save Huell*/
+
+.huell a:link {
+    color: blue;
+}
+.huell a:visited {
+    color: orange;
+}
+.huell a:hover {
+    color: magenta;
+}
+.huell a:active {
+    color: lime;
+}
+
+/*Ministries*/
+
+table{
+    text-align:center;
+    color: black;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px dotted;
+}
+tr:nth-child(even) {
+    background-color: rgb(214, 204, 204);
+}
+tr:hover {
+    background-color: orange;
+}
+
+
+/*Gallery*/
+div.gframe {
+    margin: 25px;
+    width: 100%;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    float: left;
+    width: 32%;
+}
+  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+h1 {
+    font-size:250%;
+}
+
+div.footer {
+    margin: 15px;
+}
+
+footer {
+    color:rgb(160, 160, 160); 
+    font-size: 75%; 
+    text-align: center; 
+    margin-top: 50px;
+}
+
+.blue {
+    color:rgb(70, 130, 180)
+}
+
+.pink {
+    color: rgb(255, 0, 216);
+}
+
+.gray {
+    color:rgb(160, 160, 160);
+}
+
+.center-text {
+    text-align:center;
+}
+
+.font-double {
+    font-size:200%;
+}
+
+#center-1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+#center-2 {
+    display:flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    margin-top: 20px;
+}
+
+#center-3 {
+    text-align:center; 
+    list-style-position: inside; 
+    margin-left: 150px; 
+    margin-right: 150px;
+}
+
+#img-1 {
+    width:550px; 
+    margin-top:20px;
+}
+
+#img-2 {
+    width:350px;
+    margin-right:20px;
+}
+
+
+
